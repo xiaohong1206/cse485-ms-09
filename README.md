@@ -51,55 +51,22 @@ Thank you for considering contributing to the Laravel framework! The contributio
 In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
 ## Security Vulnerabilities
-# MiniShop Laravel - Buổi 6
-
-## Yêu cầu
-
-- PHP 8.2+
-- Composer
-- Laravel
+# MiniShop Laravel - Phiếu 06
 
 ## Cài đặt
 
-Clone project:
+### Yêu cầu
 
-```bash
-git clone <link-github>
-```
+* PHP 8.2+
+* Composer
+* Laravel
 
-Di chuyển vào project:
-
-```bash
-cd cse485-laravel
-```
-
-Cài thư viện:
+### Các bước chạy dự án
 
 ```bash
 composer install
-```
-
-Tạo file môi trường:
-
-```bash
-copy .env.example .env
-```
-
-Hoặc trên Linux/macOS:
-
-```bash
 cp .env.example .env
-```
-
-Tạo Application Key:
-
-```bash
 php artisan key:generate
-```
-
-Chạy project:
-
-```bash
 php artisan serve
 ```
 
@@ -111,15 +78,13 @@ http://127.0.0.1:8000
 
 ---
 
-## Checklist
+## Tiến độ MiniShop
 
-- [x] Dashboard
-- [x] Categories
-- [x] Products
-- [x] About
-- [x] Route hoạt động
+* [x] Route admin
+* [ ] Blade layout (P07)
+* [ ] Migration 2 bảng (P08)
+* [ ] CRUD 2 bảng (P12)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 
