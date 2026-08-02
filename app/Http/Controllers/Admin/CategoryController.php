@@ -8,6 +8,6 @@ class CategoryController extends Controller
 {
     public function index()
     {
-        return view('admin.categories');
+        return view('admin.categories.index');
     }
 }
